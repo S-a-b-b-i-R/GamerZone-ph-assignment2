@@ -1,0 +1,35 @@
+@media screen and (max-width: 425px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .nav-brand-container {
+        width: 100%;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .nav-menu-items-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 35px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .nav-container {
+        max-width: 668px;
+    }
+    .nav-brand-container {
+        width: 35%;
+    }
+    .nav-menu-items-container {
+        width: 65%;
+    }
+    .nav-menu-items-container a.text-gray-small {
+        white-space: nowrap;
+    }
+    .with-icon {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
