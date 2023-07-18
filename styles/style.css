@@ -17,6 +17,30 @@ body {
     font-weight: 400;
 }
 
+.btn-primary {
+    border-radius: 48px;
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary {
+    border-radius: 48px;
+    background: #4ec5f7;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
 /* navbar styles */
 nav {
     background: #fff;
@@ -70,20 +94,61 @@ nav {
 }
 
 /* banner */
+.banner {
+    background-image: url("../images/Group14.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 50%;
+}
+
 .banner-container {
-    border: 1px solid red;
-    min-height: 700px;
+    /* border: 1px solid red; */
+    max-height: 700px;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
 }
 
 .banner-content {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.banner-features-list-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .banner-img {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-btn-group {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.banner-title-first {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-title {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 95px;
+    font-weight: 800;
 }
