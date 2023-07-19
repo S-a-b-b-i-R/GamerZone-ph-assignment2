@@ -17,6 +17,13 @@ body {
     font-weight: 400;
 }
 
+.section-description {
+    color: #534c64;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
 .btn-primary {
     border-radius: 48px;
     background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
@@ -39,6 +46,14 @@ body {
 
 .btn:hover {
     cursor: pointer;
+}
+
+.section-title {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 /* navbar styles */
@@ -158,4 +173,56 @@ nav {
     -webkit-background-clip: text;
     font-size: 5.9rem;
     font-weight: 800;
+}
+
+/* we are gamers section */
+.second-banner {
+    /* border: 1px solid #29ff29; */
+    background: linear-gradient(
+        90deg,
+        rgba(255, 66, 165, 0.03) 0%,
+        rgba(255, 66, 165, 0.03) 100%
+    );
+}
+
+.second-banner-container {
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.second-banner-img {
+    /* border: 1px solid green; */
+    width: 60%;
+    margin: auto 0;
+}
+
+.second-banner-content {
+    /* border: 1px solid blue; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    text-align: right;
+}
+
+.second-banner-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.second-banner-text {
+    color: #534c64;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.second-banner-quote {
+    color: #534c64;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
