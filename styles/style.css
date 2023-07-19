@@ -50,6 +50,16 @@ body {
     border: none;
 }
 
+.btn-career {
+    border-radius: 48px;
+    background: white;
+    padding: 20px 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ff42a5;
+    border: none;
+}
+
 .btn:hover {
     cursor: pointer;
 }
@@ -366,18 +376,102 @@ nav {
 }
 
 /* career section */
-/* .career {
+.career {
     background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
 .careers-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 1000px;
     margin: 0 auto;
-    height: 820px;
+    height: fit-content;
+    display: flex;
 }
 .career-content {
+    /* border: 1px solid blue; */
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.career-title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.career-description {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.career-content .btn {
+    width: 60%;
 }
 .career-img {
+    /* border: 1px solid green; */
     width: 50%;
-} */
+}
+
+.career-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lists ul {
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.right-list {
+    text-align: right;
+}
+
+/* game tags */
+.game-tag-container {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 66, 165, 0.03) 0%,
+        rgba(255, 66, 165, 0.03) 100%
+    );
+}
+.game-tags {
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    min-height: 350px;
+    margin: 0 auto;
+}
+.tag-grid {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 350px;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+.tag {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 48px;
+}
+.tag-title {
+    white-space: nowrap;
+    color: #0b0223;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.tag:hover {
+    cursor: pointer;
+    border: 1px solid #ff42a5;
+}
