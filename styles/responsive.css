@@ -72,6 +72,9 @@
         align-items: center;
         text-align: center;
     }
+    .online-games-content .section-description {
+        font-size: 0.9rem;
+    }
     .games-card-container {
         flex-direction: column;
         gap: 30px;
