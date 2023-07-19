@@ -475,3 +475,9 @@ nav {
     cursor: pointer;
     border: 1px solid #ff42a5;
 }
+
+/* footer */
+.page-footer {
+    background-color: #0b0223;
+    height: 400px;
+}
