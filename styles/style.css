@@ -473,7 +473,7 @@ nav {
 }
 .tag:hover {
     cursor: pointer;
-    border: 1px solid #ff42a5;
+    outline: 1px solid #ff42a5;
 }
 
 /* footer */
