@@ -325,7 +325,7 @@ nav {
     align-items: flex-end;
     gap: 10px;
 }
-. .big-banner-down-content {
+.big-banner-down-content {
     width: 50%;
     text-align: left;
     display: flex;
