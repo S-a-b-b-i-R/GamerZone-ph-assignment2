@@ -171,10 +171,12 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
+    .footer-menu-list li {
+        text-align: center;
+    }
     .footer-menu-list a {
         font-size: 0.7rem;
         font-weight: 600;
-        text-align: center;
     }
     .social-icons {
         display: grid;
