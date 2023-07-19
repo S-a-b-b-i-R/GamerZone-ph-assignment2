@@ -127,11 +127,11 @@
     }
     .careers-container {
         width: 100%;
-        margin: 300px auto;
+        margin: 300px auto 0px;
         flex-direction: column;
         gap: 30px;
         align-items: center;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
     }
     .career-content {
         width: 95%;
