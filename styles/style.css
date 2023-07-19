@@ -477,8 +477,10 @@ nav {
 }
 
 /* footer */
-.page-footer {
+footer {
     background-color: #0b0223;
+}
+.page-footer {
     height: 500px;
     display: flex;
     flex-direction: column;

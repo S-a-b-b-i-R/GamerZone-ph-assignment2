@@ -2,6 +2,7 @@
     .nav-container {
         flex-direction: column;
         gap: 60px;
+        padding-bottom: 20px;
     }
     .nav-brand-container {
         width: 100%;
@@ -160,11 +161,48 @@
     .tag {
         width: fit-content;
     }
+    .page-footer {
+        max-width: 70%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .footer-menu-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .footer-menu-list a {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .social-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .footer-links > a {
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .footer-text {
+        font-size: 0.7rem;
+        font-weight: 400;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .nav-container {
         max-width: 668px;
+        margin-bottom: 20px;
+        /* border-bottom: 1px solid red; */
     }
     .nav-brand-container {
         width: 35%;
@@ -217,8 +255,20 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    .big-banner-up-img .main-up-img {
+        height: 80%;
+        object-fit: cover;
+    }
+    .big-banner-down-img .main-down-img {
+        height: 80%;
+        object-fit: cover;
+    }
+    /* .big-banner-up,
+    .big-banner-down {
+        padding: 5px;
+    } */
     .careers-container {
-        padding: 10px;
+        padding: 25px;
     }
     .career-content {
         width: 60%;
