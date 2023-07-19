@@ -17,6 +17,12 @@ body {
     font-weight: 400;
 }
 
+.text-gray-medium {
+    color: #534c64;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .section-description {
     color: #534c64;
     font-size: 1rem;
@@ -54,6 +60,9 @@ body {
     -webkit-background-clip: text;
     font-size: 3rem;
     font-weight: 700;
+}
+.section-title-black {
+    color: black;
 }
 
 /* navbar styles */
@@ -225,4 +234,69 @@ nav {
     color: #534c64;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+/* online games section */
+.online-games-container {
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.online-games-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.games-card-container {
+    /* border: 1px solid blue; */
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.games-card {
+    position: relative;
+    max-width: 200px;
+}
+
+.text-overlay {
+    position: absolute;
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.25rem;
+    font-weight: 600;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    display: none;
+    white-space: nowrap;
+}
+
+.icon-overlay {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.games-card:hover .text-overlay {
+    display: block;
+}
+
+.games-card:hover .icon-overlay {
+    display: block;
+}
+
+.games-card-container img {
+    width: 100%;
+}
+
+.games-card:hover img {
+    filter: grayscale(70%);
 }
