@@ -71,6 +71,24 @@
         align-items: center;
         text-align: center;
     }
+    .games-card-container {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .text-gray-medium {
+        text-align: center;
+    }
+    .text-overlay {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-overlay {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -112,5 +130,20 @@
         margin: 0 auto;
         align-items: center;
         text-align: center;
+    }
+    .games-card-container {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .text-overlay {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .icon-overlay {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

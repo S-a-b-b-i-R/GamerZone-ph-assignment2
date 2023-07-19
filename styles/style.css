@@ -19,8 +19,8 @@ body {
 
 .text-gray-medium {
     color: #534c64;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
 .section-description {
@@ -240,8 +240,7 @@ nav {
 .online-games-container {
     /* border: 1px solid red; */
     max-width: 1000px;
-    min-height: 500px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .online-games-content {
@@ -251,9 +250,9 @@ nav {
 
 .games-card-container {
     /* border: 1px solid blue; */
-    height: 400px;
+    /* height: 400px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
 }
@@ -271,7 +270,7 @@ nav {
     font-size: 1.25rem;
     font-weight: 600;
     left: 50%;
-    top: 40%;
+    top: 55%;
     transform: translate(-50%, -50%);
     display: none;
     white-space: nowrap;
@@ -280,7 +279,7 @@ nav {
 .icon-overlay {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 40%;
     transform: translate(-50%, -50%);
     display: none;
 }
