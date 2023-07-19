@@ -13,7 +13,7 @@ body {
 /* common styles */
 .text-gray-small {
     color: #534c64;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
@@ -21,7 +21,7 @@ body {
     border-radius: 48px;
     background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
     padding: 20px 40px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #fff;
     border: none;
@@ -31,7 +31,7 @@ body {
     border-radius: 48px;
     background: #4ec5f7;
     padding: 20px 40px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #fff;
     border: none;
@@ -118,6 +118,13 @@ nav {
     gap: 15px;
 }
 
+.banner-features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
 .banner-features-list-item {
     display: flex;
     gap: 10px;
@@ -141,7 +148,7 @@ nav {
 }
 
 .banner-title-first {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -149,6 +156,6 @@ nav {
     background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
     color: transparent;
     -webkit-background-clip: text;
-    font-size: 95px;
+    font-size: 5.9rem;
     font-weight: 800;
 }
